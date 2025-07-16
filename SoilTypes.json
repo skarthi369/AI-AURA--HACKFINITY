@@ -1,0 +1,10 @@
+
+{
+  "name": "SoilTypes",
+  "entries": [
+    { "value": "black soil", "synonyms": ["regur", "black"] },
+    { "value": "red soil", "synonyms": ["red"] },
+    { "value": "alluvial soil", "synonyms": ["alluvial", "fertile"] },
+    { "value": "sandy soil", "synonyms": ["sandy", "coarse"] }
+  ]
+}
