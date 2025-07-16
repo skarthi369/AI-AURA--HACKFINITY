@@ -1,0 +1,27 @@
+
+{
+  "name": "GetCropSuggestion",
+  "trainingPhrases": [
+    { "text": "What crop should I grow in black soil?" },
+    { "text": "Suggest a crop for red soil in June" },
+    { "text": "Best crop for my region this season?" }
+  ],
+  "parameters": [
+    {
+      "name": "soil_type",
+      "entityType": "@SoilTypes",
+      "required": true
+    },
+    {
+      "name": "season",
+      "entityType": "@sys.date-period",
+      "required": false
+    }
+  ],
+  "responses": [
+    {
+      "text": "Based on the {{soil_type}}, here are suitable crops: {{crop_list}}."
+    }
+  ],
+  "fulfillmentEnabled": true
+}
