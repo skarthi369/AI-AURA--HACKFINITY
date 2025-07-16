@@ -1,0 +1,16 @@
+agrihelp-ai-agent/
+├── agent.json
+├── intents/
+│   ├── GetCropSuggestion.json
+│   ├── IdentifyPlant.json
+│   ├── AskSoilAdvice.json
+│   └── GeneralGreeting.json
+├── entities/
+│   ├── CropNames.json
+│   ├── SoilTypes.json
+│   └── PlantSymptoms.json
+├── fulfillment/
+│   ├── index.js
+│   └── agri_utils.js
+└── data/
+    └── crops_dataset.csv
