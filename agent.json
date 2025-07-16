@@ -1,0 +1,14 @@
+
+{
+  "displayName": "AgriHelp AI",
+  "description": "An AI-powered assistant for farmers and plant care",
+  "language": "en",
+  "intents": ["GetCropSuggestion", "IdentifyPlant", "AskSoilAdvice", "GeneralGreeting"],
+  "entities": ["CropNames", "SoilTypes", "PlantSymptoms"],
+  "fulfillment": {
+    "enabled": true,
+    "webhook": {
+      "url": "https://your-host.com/webhook"
+    }
+  }
+}
